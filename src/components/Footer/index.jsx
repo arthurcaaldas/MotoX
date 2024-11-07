@@ -2,8 +2,8 @@ import './Footer.module.css'
 
 const Footer = () => {
   return (
-    <footer className="p-1">
-      <img className="mb-2" src="src\assets\images\logo-sem-fundo.png" alt="logo marca" />
+    <footer className="p-2">
+      <img className="mb-2" src="src\assets\images\motox.png" alt="logo marca" />
 
       <div>
         <div className="mb-3">
