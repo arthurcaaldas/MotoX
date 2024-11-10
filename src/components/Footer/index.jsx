@@ -8,7 +8,7 @@ const Footer = () => {
       <div>
         <div className="mb-2">
           <h4>Endereço</h4>
-          <p>Rua Alcídes Ramos de Lima, 4, Jacintinho </p>
+          <p>Rua Alcídes Ramos de Lima, 65, Jacintinho </p>
           <p>Maceió-AL, 57041-020</p>
         </div>
         
