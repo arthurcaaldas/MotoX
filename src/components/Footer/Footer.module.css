@@ -36,3 +36,37 @@ footer {
     font-size: 16px;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  footer {
+    text-align: start;
+    
+    .address {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .rights {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .address {
+    width: 944px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
