@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import Cards from "../../components/Cards"
+import Brands from "../../components/Brands"
 import Footer from "../../components/Footer"
 import './Home.css'
 
@@ -11,6 +12,7 @@ const Home = () => {
       
       <main>
         <Cards></Cards>
+        <Brands></Brands>
       </main>
 
       <Footer></Footer>
