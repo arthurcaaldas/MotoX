@@ -8,6 +8,10 @@
   --border-radius-xxl: 7rem;
 }
 
+.container {
+  max-width: 1150px;
+}
+
 /* text */
 .text-center {
   text-align: center;
