@@ -5,7 +5,7 @@ const maintenance = () => {
     <section>
 
       <h1 className="py-3 text-center">Serviços</h1>
-      <div className={styles.bg_gray200}>
+      <div className={styles.bg_gray100}>
         <div>
           <h2 className={`${styles.title} ${"text-center py-3 mb-2"}`}>Manutenção</h2>
           <div className="pb-4">
@@ -31,9 +31,33 @@ const maintenance = () => {
         </div>
       </div>
 
+      <div className={`${styles.bg_gray100} ${'my-1'}`}>
+        <h2 className={`${styles.title} ${"text-center py-3 mb-2"}`}>Injeção Eletrônica</h2>
+        <div className="pb-4">
+          <h4 className={`${"text-center mb-2 px-3"}`}>
+            Possuímos aparelhos para efetuar a limpeza, diagnostico e correção de 
+            erros de sua motocicleta.
+          </h4>
+          <ul>
+            <li>
+              <img src="src/assets/images/services/9.jpg" alt="" />
+            </li>
+            <li>
+              <img src="src/assets/images/services/10.jpg" alt="" />
+            </li>
+            <li>
+              <img src="src/assets/images/services/11.jpg" alt="" />
+            </li>
+            <li>
+              <img src="src/assets/images/services/12.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      
       <div className={styles.bg_gray100}>
         <h2 className={`${styles.title} ${"text-center py-3 mb-2"}`}>Revisões Gerais</h2>
-        <div className="pb-4">
+        <div className="pb-4 mb-3">
           <h4 className={`${"text-center mb-2 px-3"}`}>
             Possuímos referência de qualidade em nossas revisões, onde é feita a 
             verificação e manutenção completa de sua motocicleta. O que é feito na 
@@ -71,30 +95,6 @@ const maintenance = () => {
               <p>Engraxamento dos eixos</p>
               <p>Limpeza geral</p>
               <p>Verificação de iluminação</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div className={`${styles.bg_gray200} ${'mb-4'}`}>
-        <h2 className={`${styles.title} ${"text-center py-3 mb-2"}`}>Injeção Eletrônica</h2>
-        <div className="pb-4">
-          <h4 className={`${"text-center mb-2 px-3"}`}>
-            Possuímos aparelhos para efetuar a limpeza, diagnostico e correção de 
-            erros de sua motocicleta.
-          </h4>
-          <ul>
-            <li>
-              <img src="src/assets/images/services/9.jpg" alt="" />
-            </li>
-            <li>
-              <img src="src/assets/images/services/10.jpg" alt="" />
-            </li>
-            <li>
-              <img src="src/assets/images/services/11.jpg" alt="" />
-            </li>
-            <li>
-              <img src="src/assets/images/services/12.jpg" alt="" />
             </li>
           </ul>
         </div>
