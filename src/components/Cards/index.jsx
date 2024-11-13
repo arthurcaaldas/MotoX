@@ -6,7 +6,7 @@ const Cards = () => {
   return (
     <div className="pb-4">
       <h2 className="text-center py-4">Tudo que sua moto precisa!</h2>
-      <section className={styles.cards}>
+      <section className={`${styles.cards} ${`px-15`}` }>
         <article className="flex flex-direction-column justify-space-between">
             <div>
               <img src="src/assets/images/cards/technology.jpg" 
