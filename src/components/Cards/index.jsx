@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 import './Cards.module.css';
 import styles from './Cards.module.css'
 
@@ -20,7 +22,7 @@ const Cards = () => {
                 tratamento e fique pronta para qualquer desafio na estrada.
               </p>
             </div>
-            <a className="pt-1 pb-2" href="">Leia mais</a>
+            <Link className="pt-1 pb-2" to="/serviceParts">Leia mais</Link>
           </article>
 
           <article className="flex flex-direction-column justify-space-between">
@@ -38,7 +40,7 @@ const Cards = () => {
                 excepcionais.
               </p>
             </div>
-            <a className="pt-1 pb-2" href="">Leia mais</a>
+            <Link className="pt-1 pb-2" to="/serviceParts">Leia mais</Link>
           </article>
 
           <article className="flex flex-direction-column justify-space-between">
@@ -55,7 +57,7 @@ const Cards = () => {
               sempre no seu melhor.
               </p>
             </div>
-            <a className="pt-1 pb-2" href="">Leia mais</a>
+            <Link className="pt-1 pb-2" to="/serviceParts">Leia mais</Link>
           </article>
 
         </section>
