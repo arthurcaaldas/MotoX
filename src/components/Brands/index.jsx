@@ -1,6 +1,4 @@
 import './Brands.module.css';
-// import styles from './Brands.module.css'
-
 
 const Brands = () => {
   return (
