@@ -1,18 +1,14 @@
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-// import Home from "./pages/Home"
-// import SignUpPage from "./pages/SignUpPage"
-// import Sobre from "./pages/Sobre"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
 
-// function App() {
-//   return (
-//     <Router>
-//       <Routes>
-//         <Route path="/" element={ <Home /> } />
-//         <Route path="/SignUpPage" element={<SignUpPage />} />
-//         <Route path="/sobre" element={ <Sobre /> } />
-//       </Routes>
-//     </Router>
-//   )
-// }
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={ <Home /> } />
+      </Routes>
+    </Router>
+  )
+}
 
-// export default App
+export default App

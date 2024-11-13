@@ -1,4 +1,5 @@
 import './Header.module.css'
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
@@ -9,16 +10,16 @@ const Header = () => {
           <div>
             <ul>
               <li>
-                <a href="">Home</a>
+               <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="">História</a>
+                <Link to="/serviceParts">Serviços</Link>
               </li>
               <li>
-                <a href="">Serviços</a>
+               <Link to="/">História</Link>
               </li>
               <li>
-                <a href="">Contatos</a>
+                <Link to="/">Contato</Link>
               </li>
             </ul>
 
