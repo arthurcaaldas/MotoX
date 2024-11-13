@@ -5,7 +5,7 @@ import './Brands.module.css';
 const Brands = () => {
   return (
     <div className="pb-4">
-      <h2 className="text-center pb-2">Trabalhamos com as melhores marcas</h2>
+      <h2 className="text-center pb-4 px-2">Trabalhamos com as melhores marcas</h2>
       <section>
        <ul>
         <li>
