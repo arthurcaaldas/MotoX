@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import Carousel from "../../components/Carousel";
 import Cards from "../../components/Cards"
 import Brands from "../../components/Brands"
 import Footer from "../../components/Footer"
@@ -11,6 +12,7 @@ const Home = () => {
       <Header></Header>
       
       <main>
+        <Carousel></Carousel>
         <Cards></Cards>
         <Brands></Brands>
       </main>
