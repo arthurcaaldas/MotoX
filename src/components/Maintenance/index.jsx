@@ -5,7 +5,7 @@ const maintenance = () => {
     <section>
 
       <h1 className="py-3 text-center">Serviços</h1>
-      <div className={styles.bg_gray100}>
+      <div className={styles.bege400}>
         <div>
           <h2 className={`${styles.title} ${"text-center py-3 mb-2"}`}>Manutenção</h2>
           <div className="pb-4">
@@ -31,7 +31,7 @@ const maintenance = () => {
         </div>
       </div>
 
-      <div className={`${styles.bg_gray100} ${'my-1'}`}>
+      <div className={` ${'my-1'}`}>
         <h2 className={`${styles.title} ${"text-center py-3 mb-2"}`}>Injeção Eletrônica</h2>
         <div className="pb-4">
           <h4 className={`${"text-center mb-2 px-3"}`}>
@@ -55,9 +55,9 @@ const maintenance = () => {
         </div>
       </div>
       
-      <div className={styles.bg_gray100}>
+      <div className={styles.bege400}>
         <h2 className={`${styles.title} ${"text-center py-3 mb-2"}`}>Revisões Gerais</h2>
-        <div className="pb-4 mb-3">
+        <div className="pb-4">
           <h4 className={`${"text-center mb-2 px-3"}`}>
             Possuímos referência de qualidade em nossas revisões, onde é feita a 
             verificação e manutenção completa de sua motocicleta. O que é feito na 
