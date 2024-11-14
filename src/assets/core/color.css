@@ -11,6 +11,7 @@
   --color-yellow-400: #f8ac0a;
   --color-red-400: #e4351f;
   --color-bege-400: #ccc8b4;
+  --color-orange-400: #e85b14;
 
   --color-primary: var(--color-red-400);
   --color-secondary: var(--color-gray-400);

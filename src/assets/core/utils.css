@@ -8,6 +8,14 @@
   --border-radius-xxl: 7rem;
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .container {
   max-width: 1150px;
 }
