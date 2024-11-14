@@ -77,7 +77,6 @@ header {
     padding: 10px 0;
   }
 
-  /* Estilos para transformar o ícone de hambúrguer em "X" */
   .hamburgerIcon.open span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
   }
