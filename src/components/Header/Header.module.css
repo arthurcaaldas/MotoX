@@ -98,20 +98,46 @@ header {
   .header {
     max-width: 1150px;
     
-    .nav ul {
-      display: flex;
-      justify-content: space-between;
-      width: 250px;
+    .logo {
+      width: 100px;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
     
     .active {
       background-color: var(--color-red-400);
       border-radius: 10px;
-      padding: 5px;
     }
     
     a {
       color: var(--color-white);
+      font-size: 18px;
+      margin-right: 5px;
+      margin-left: 5px;
+      
+      img {
+        width: 28px;
+      }
+    }
+    
+    .menuDesktop {
+      min-width: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      > :first-child {
+        margin-right: 60px;
+      }
+      
+      ul {
+        display: flex;
+        
+        li {
+          padding: 5px;
+          text-transform: uppercase;
+        }
+      }
     }
   }
 }

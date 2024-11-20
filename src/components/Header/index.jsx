@@ -52,7 +52,7 @@ const Header = () => {
           </div>
 
           <nav ref={menuRef} className={`${styles.nav} ${isMenuOpen ? styles.open : ""}`}>
-            <div>
+            <div className={`${styles.menuDesktop}`}>
               <ul>
                 <li className={location.pathname === "/" ? styles.active : ""}>
                   <Link to="/" onClick={toggleMenu}>Home</Link>
@@ -68,20 +68,18 @@ const Header = () => {
                 </li>
               </ul>
 
-              <div>
-                <ul className="flex justify-center">
-                  <li>
-                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=558288723172&text&type=phone_number&app_absent=0">
-                      <img src="src/assets/images/icons/icon-whatsapp.png" alt="icon whatsapp" />
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="https://www.instagram.com/motoxmcz/">
-                      <img src="src/assets/images/icons/icon-instagram.png" alt="icon instagram" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <ul className={`${styles.icons} ${"flex justify-center"}`}>
+                <li>
+                  <a target="_blank" href="https://api.whatsapp.com/send/?phone=558288723172&text&type=phone_number&app_absent=0">
+                    <img src="src/assets/images/icons/icon-whatsapp.png" alt="icon whatsapp" />
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.instagram.com/motoxmcz/">
+                    <img src="src/assets/images/icons/icon-instagram.png" alt="icon instagram" />
+                  </a>
+                </li>
+              </ul>
             </div>
           </nav>
         </div>
