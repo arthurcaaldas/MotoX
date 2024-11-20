@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
+import Trajectory from "../../components/Trajectory"
 import Footer from "../../components/Footer"
 import './History.css'
-
 
 const History = () => {
   return (
@@ -9,7 +9,7 @@ const History = () => {
       <Header></Header>
       
       <main>
-
+      <Trajectory></Trajectory>
       </main>
 
       <Footer></Footer>
