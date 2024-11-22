@@ -7,7 +7,7 @@ const maintenance = () => {
       <h1 className="py-3 text-center">Serviços</h1>
       <div className={styles.bege400}>
         <div>
-          <h2 className={`${styles.title} ${"text-center py-3 mb-2"}`}>Manutenção</h2>
+          <h2 className={`${styles.title} ${"text-center pt-3 pb-1 mb-2"}`}>Manutenção</h2>
           <div className="pb-4">
             <h4 className={`${"text-center mb-2 px-3"}`}>
               Fazemos todo o tipo de manutenção entre elas: Troca de óleo, peças, 
@@ -32,7 +32,7 @@ const maintenance = () => {
       </div>
 
       <div className={` ${'my-1'}`}>
-        <h2 className={`${styles.title} ${"text-center py-3 mb-2"}`}>Injeção Eletrônica</h2>
+        <h2 className={`${styles.title} ${"text-center pt-3 pb-1 mb-2"}`}>Injeção Eletrônica</h2>
         <div className="pb-4">
           <h4 className={`${"text-center mb-2 px-3"}`}>
             Possuímos aparelhos para efetuar a limpeza, diagnostico e correção de 
@@ -56,7 +56,7 @@ const maintenance = () => {
       </div>
       
       <div className={styles.bege400}>
-        <h2 className={`${styles.title} ${"text-center py-3 mb-2"}`}>Revisões Gerais</h2>
+        <h2 className={`${styles.title} ${"text-center pt-3 pb-1 mb-2"}`}>Revisões Gerais</h2>
         <div className="pb-4">
           <h4 className={`${"text-center mb-2 px-3"}`}>
             Possuímos referência de qualidade em nossas revisões, onde é feita a 
