@@ -2,7 +2,7 @@ import styles from './Brands.module.css';
 
 const Brands = () => {
   return (
-    <div className="pb-4">
+    <div className={`${"pb-4"} ${styles.brands}`}>
       <h2 className="text-center pb-4 px-2">Trabalhamos com as melhores marcas</h2>
       <section className={`${styles.brands}`}>
        <ul>
