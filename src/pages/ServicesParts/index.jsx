@@ -1,5 +1,4 @@
 import Header from "../../components/Header";
-import Manufacturers from "../../components/Manufacturers";
 import Maintenance from "../../components/Maintenance"
 import Payments from "../../components/Payments"
 import Footer from "../../components/Footer"
@@ -11,8 +10,7 @@ const ServiceParts = () => {
     <body>
       <Header></Header>
       
-      <main>
-        <Manufacturers></Manufacturers>
+      <main className={`${"mt-header"}`}>
         <Maintenance></Maintenance>
         <Payments></Payments>
       </main>

@@ -8,7 +8,7 @@ const Contact = () => {
     <body>
       <Header></Header>
       
-      <main>
+      <main className={`${"mt-header"}`}>
 
       </main>
 

@@ -11,7 +11,7 @@ const Home = () => {
     <body>
       <Header></Header>
       
-      <main>
+      <main className={`${"mt-header"}`}>
         <Carousel></Carousel>
         <Cards></Cards>
         <Brands></Brands>
