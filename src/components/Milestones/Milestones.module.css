@@ -1,0 +1,61 @@
+.milestones {
+  max-width: 1150px;
+  margin: 0 auto;
+  
+  ul {
+    display: grid;
+    column-gap: 0;
+    row-gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    img {
+      width: 55%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .milestones {
+    ul {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .milestones {
+    ul {
+      grid-template-columns: repeat(3, 1fr);
+      
+      img {
+        width: 55%;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .milestones {
+    ul {
+      grid-template-columns: repeat(4, 1fr);
+      
+      img {
+        width: 55%;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+  }
+}
