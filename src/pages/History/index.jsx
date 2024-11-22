@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import Trajectory from "../../components/Trajectory"
+import Milestones from "../../components/Milestones"
 import Footer from "../../components/Footer"
 import './History.css'
 
@@ -10,6 +11,7 @@ const History = () => {
       
       <main>
       <Trajectory></Trajectory>
+      <Milestones></Milestones>
       </main>
 
       <Footer></Footer>
