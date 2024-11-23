@@ -1,0 +1,16 @@
+.iframe {
+  width: 80%;
+  height: 250px;
+}
+
+@media (min-width: 769px) {
+  .iframe {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .frame {
+    width: 1150px;
+  }
+}
