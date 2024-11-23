@@ -4,7 +4,7 @@ const maintenance = () => {
   return (
     <section className={styles.maintenance}>
 
-      <h1 className="py-3 text-center">Serviços</h1>
+      <h1 className="py-1 text-center">Serviços</h1>
       <div className={styles.bege400}>
         <div>
           <h2 className={`${styles.title} ${"text-center pt-3 pb-1 mb-2"}`}>Manutenção</h2>
