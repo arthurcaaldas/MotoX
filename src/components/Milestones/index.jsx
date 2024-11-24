@@ -20,39 +20,6 @@ const Milestones = () => {
         <li>
           <img src="src/assets/images/brands/norisk.png" alt="" />
         </li>
-        <li>
-          <img src="src/assets/images/brands/hamp.png" alt="" />
-        </li>
-        <li>
-          <img src="src/assets/images/brands/scud.png" alt="" />
-        </li>
-        <li>
-          <img src="src/assets/images/brands/did.png" alt="" />
-        </li>
-        <li>
-          <img src="src/assets/images/brands/x11.png" alt="" />
-        </li>
-        <li>
-          <img src="src/assets/images/brands/vipal.png" alt="" />
-        </li>
-        <li>
-          <img src="src/assets/images/brands/cobreq.png" alt="" />
-        </li>
-        <li>
-          <img src="src/assets/images/brands/cofap.png" alt="" />
-        </li>
-        <li>
-          <img src="src/assets/images/brands/potenza.png" alt="" />
-        </li>
-        <li>
-          <img src="src/assets/images/brands/levorin.png" alt="" />
-        </li>
-        <li>
-          <img src="src/assets/images/brands/ngk.png" alt="" />
-        </li>
-        <li>
-          <img src="src/assets/images/brands/ls2.png" alt="" />
-        </li>
        </ul>
       </section>
     </div>
