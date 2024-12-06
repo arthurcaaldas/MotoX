@@ -19,7 +19,7 @@ const Carousel = ({ images = [] }) => {
 
   useEffect(() => {
     if (images.length > 1) {
-      intervalRef.current = setInterval(handleNext, 3000);
+      intervalRef.current = setInterval(handleNext, 5000);
     }
     return () => clearInterval(intervalRef.current);
   }, [handleNext, images.length]);
