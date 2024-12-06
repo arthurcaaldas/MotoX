@@ -5,7 +5,7 @@ import styles from './Cards.module.css'
 
 const Cards = () => {
   return (
-    <div className={`${"pb-4 mt-4"} ${styles.cards}`}>
+    <div className={`${"pb-4"} ${styles.cards}`}>
       <h2 className={`${"text-center py-3"}`}>Tudo que sua moto precisa!</h2>
       <section className={`${styles.contentCards} ${`px-15`}`}>
         <article className="flex flex-direction-column justify-space-between">
