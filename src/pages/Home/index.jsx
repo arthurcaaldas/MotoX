@@ -9,9 +9,11 @@ import Footer from "../../components/Footer"
 import './Home.css'
 
 const images = [
-  "https://via.placeholder.com/1200x600?text=Image+1",
-  "https://via.placeholder.com/1200x600?text=Image+2",
-  "https://via.placeholder.com/1200x600?text=Image+3",
+  "src/assets/images/banner/banner1.jpg",
+  "src/assets/images/banner/banner2.jpg",
+  "src/assets/images/banner/banner3.jpg",
+  "src/assets/images/banner/banner4.jpg",
+  "src/assets/images/banner/banner5.jpg",
 ];
 
 const Home = () => {
