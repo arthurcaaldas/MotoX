@@ -2,9 +2,10 @@ import styles from './ContactCards.module.css';
 
 const ContactCards = () => {
   return (
-    <section className={`${styles.contactCards} ${"pt-5"}`}>
+    <section className={`${styles.contactCards}`}>
+      <h2 className={`text-center py-3`}>Contate-nos!</h2>
        <ul>
-        <li className={`${"py-2 flex-direction-column justify-space-between"}`}>
+        <li className={`${"pb-2 flex-direction-column justify-space-between"}`}>
           <a target="_blank" href="https://maps.app.goo.gl/L9rgDagt5HZvydhA7">
             <img src="src/assets/images/icons/icon-loc.png" alt="" />
           </a>
