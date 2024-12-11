@@ -2,7 +2,7 @@ import styles from './Maintenance.module.css';
 
 const maintenance = () => {
   return (
-    <section className={styles.maintenance}>
+    <section className={`${styles.maintenance}`}>
       <h1 className="py-3 text-center">Serviços</h1>
       <div className={styles.bege400}>
         <div>

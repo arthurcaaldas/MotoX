@@ -73,6 +73,11 @@
 
 @media only screen and (min-width: 1024px) {
   .maintenance {
+
+    h1 {
+      margin-top: 7.879rem;
+    }
+
     ul {
       grid-template-columns: repeat(4, 1fr);
     }
