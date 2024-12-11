@@ -11,9 +11,7 @@ import './Home.css'
 const images = [
   "src/assets/images/banner/banner1.jpg",
   "src/assets/images/banner/banner2.jpg",
-  "src/assets/images/banner/banner3.jpg",
   "src/assets/images/banner/banner4.jpg",
-  "src/assets/images/banner/banner5.jpg",
 ];
 
 const Home = () => {

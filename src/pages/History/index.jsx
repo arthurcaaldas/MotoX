@@ -10,8 +10,8 @@ const History = () => {
       <Header></Header>
       
       <main className={`${"mt-header"}`}>
-      <Trajectory></Trajectory>
-      <Milestones></Milestones>
+        <Trajectory></Trajectory>
+        <Milestones></Milestones>
       </main>
 
       <Footer></Footer>
