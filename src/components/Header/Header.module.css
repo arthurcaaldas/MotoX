@@ -6,8 +6,8 @@ header {
   z-index: 1;
   
   .header {
-    position: relative;
     width: 100%;
+    position: relative;
   }
   
   .logo {
@@ -16,8 +16,8 @@ header {
   
   a {
     text-decoration: none;
-    color: var(--color-black-800);
     font-size: 22px;
+    color: var(--color-black-800);
   }
 }
 
@@ -55,13 +55,14 @@ header {
   }
   
   .nav {
+    width: 100%;
     display: none;
     flex-direction: column;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.4);
+    
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
-    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.4);
     z-index: 1000;
   }
   
@@ -110,10 +111,10 @@ header {
     }
     
     a {
-      color: var(--color-white);
       font-size: 18px;
       margin-right: 5px;
       margin-left: 5px;
+      color: var(--color-white);
       
       img {
         width: 28px;

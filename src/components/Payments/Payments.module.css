@@ -1,5 +1,4 @@
 .payment {
-  
   h2 {
     text-transform: uppercase;
     font-size: 38px;
@@ -12,8 +11,8 @@
   }
   
   a {
-    background-color: var(--color-orange-400);
     font-size: 14px;
+    background-color: var(--color-orange-400);
     color: var(--color-white);
     text-transform: uppercase;
     text-decoration: none;
@@ -22,16 +21,16 @@
   }
   
   .price {
-    background-color: var(--color-black-600);
-    border-radius: 40px;
     width: 90%;
+    border-radius: 40px;
+    background-color: var(--color-black-600);
   }
   
   .text1 {
-    color: var(--color-white);
-    font-size: 18px;
     text-transform: uppercase;
+    font-size: 18px;
     padding-right: 10px;
+    color: var(--color-white);
   }
   
   .text2 {
@@ -45,24 +44,24 @@
   }
   
   .text3 {
-    color: var(--color-yellow-400);
     padding-top: 12px;
+    color: var(--color-yellow-400);
   }
   
   ul {
-    background-color: var(--color-bege-400);
     width: 70%;
-    border-radius: 20px;
     padding: 5px;
+    border-radius: 20px;
     bottom: -17px;
+    background-color: var(--color-bege-400);
   }
   
   img {
-    background-color: var(--color-white);
     width: 40px;
     border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color: var(--color-white);
   }
 }
 
