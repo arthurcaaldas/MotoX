@@ -37,3 +37,10 @@
     right: 10px;
   }
 }
+
+@media (min-width: 769px) {
+  .carousel {
+    height: 75vh;
+    margin-top: 1.509rem; 
+  }
+}
