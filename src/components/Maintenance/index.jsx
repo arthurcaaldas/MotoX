@@ -54,7 +54,7 @@ const maintenance = () => {
         </div>
       </div>
       
-      <div className={styles.bege400}>
+      <div className={`${"mb-4"} ${styles.bege400}`}>
         <h2 className={`${styles.title} ${"text-center pt-3 pb-1 mb-2"}`}>Revisões Gerais</h2>
         <div className="pb-4">
           <h4 className={`${"text-center mb-2 px-3"}`}>

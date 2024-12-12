@@ -3,7 +3,7 @@ import styles from './Payments.module.css';
 
 const Payments = () => {
   return (
-    <section className='flex justify-center mt-3 mb-4'>
+    <section className='flex justify-center mt-3'>
       <div className={`${styles.payment}`}>
         <div>
           <h2 className='text-center px-3'>Agende sua revisão hoje!</h2 >

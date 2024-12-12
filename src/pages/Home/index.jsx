@@ -6,6 +6,7 @@ import Carousel from "../../components/Carousel";
 import Cards from "../../components/Cards"
 import Brands from "../../components/Brands"
 import Footer from "../../components/Footer"
+import Payments from "../../components/Payments"
 import './Home.css'
 
 const images = [
@@ -21,6 +22,7 @@ const Home = () => {
       
       <main className={`${"mt-header"}`}>
         <Carousel images={images} />
+        <Payments></Payments>
         <Cards></Cards>
         <Brands></Brands>
       </main>
