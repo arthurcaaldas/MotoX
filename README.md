@@ -24,9 +24,18 @@
 <h2 id="-tecnologias">Ferramentas e Tecnologias:</h2>
 <ul>
   <li>HTML</li>
+    Estruturação da página utilizando semântica básica.<br>
+    Uso de tags como header, main, section, footer para organizar o conteúdo.<br>
+    Integração de links externos e elementos visuais.
   <li>CSS</li>
+    Definição de estilos para tornar a página responsiva.<br>
+    Adição de efeitos visuais como hover para botões e elementos interativos.<br>
+    Personalização de fontes, cores e layout para destacar o tema MotoX.
   <li>JavaScript</li>
+    Implementação de lógica para interação do usuário, como eventos e manipulação do DOM.<br>
+    Funções para navegação entre seções ou elementos interativos no site.
   <li>ReactJS</li>
+    Uso de diversas ferramentas como: Vite, CSS Modules, useEffect, useLocation, entre outros...
 </ul>
 
 <h2>📋 Pré-requisitos:</h2>
